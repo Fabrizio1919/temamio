@@ -10,7 +10,7 @@ get_header();
     <p>Compila il modulo qui sotto e ti risponderemo il prima possibile.</p>
 
     <?php
-    // Mostra il form WPForms con ID 18
+    
     if ( function_exists( 'wpforms_display' ) ) {
         wpforms_display(18);
     } else {
